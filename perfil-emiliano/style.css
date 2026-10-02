@@ -11,14 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background: #eef1f5;
+    background: #afafaf;
     color: #252525;
 }
 
 .card {
     width: 100%;
     max-width: 850px;
-    background: #ffffff;
+    background: #fffefe;
     border-radius: 25px;
     overflow: hidden;
     box-shadow:
@@ -70,7 +70,7 @@ body {
     border: 6px solid #ffffff;
     margin: -75px auto 20px;
     position: relative;
-    background: #ffffff;
+    background: #9c7c64;
     box-shadow:
         0 8px 25px rgba(0, 0, 0, 0.15);
 }
@@ -85,11 +85,50 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 5px;
-    color: #202020;
+    color: #434343;
 }
 .profile h2 {
     font-size: 15px;
     font-weight: 500;
-    color: #666;
+    color: #131313;
     margin-bottom: 15px;
+}
+
+.profile-description {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #1f1f44;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/*REDES SOCIALES*/
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #415375;
+    color: #333;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-4px);
+    background: #222;
+    color: #775f5f;
 }
